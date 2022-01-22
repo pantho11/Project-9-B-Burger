@@ -1,0 +1,347 @@
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  .banner-text h1 {
+    font-size: 91px;
+}
+.post-content h2 {
+    font-size: 29px;
+  
+}
+.post-gallery {
+    width: 100%;
+    padding: 35px 0;
+}
+.footer-r {
+    margin-top: 255px;
+    margin-left: 168px;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .header {
+    height: 70vh;
+}
+  .banner-text {
+    display: table-cell;
+    vertical-align: middle;
+    height: 25vh;
+}
+.banner-text h1 {
+    font-size: 69px;
+}
+.banner-text p {
+    font-size: 20px;
+    
+}
+.post-content h2 {
+    font-size: 19px;
+}
+.post-content h4 {
+    font-size: 18px;
+}
+.burger-type h3 {
+    font-size: 32px;
+}
+.burger-type p {
+    font-size: 15px;
+}
+.post-gallery {
+    padding: 50px 0;
+}
+.burger-type {
+    padding: 30px 0;
+}
+.slider h2 {
+    margin: 0px 0px 8px 0px;
+    font-size: 25px;
+}
+.slider h3 {
+    font-size: 21px;
+    margin: 0px 0px 1px 0px;
+}
+.slider p {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #3d2514;
+}
+.slider .col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    align-self: center;
+}
+.shadw {
+    padding-top: 5px;
+}
+.form-section {
+    height: 473px;
+}
+.footer-r {
+    margin-top: 246px;
+    margin-left: 65px;
+}
+.footer-section p {
+    font-size: 13px;
+    padding-top: 15px;
+}
+.footer-section img {
+    padding-top: 58px;
+    padding-bottom: 0px;
+    width: 73%;
+}
+.footer-r {
+    text-align: right;
+}
+.social i {
+    text-align: right;
+}
+.social {
+    text-align: right;
+     margin-right: 0px; 
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ .banner-text {
+    height: 50vh;
+}
+.banner-text p {
+    font-size: 18px;
+}
+.banner-text h1 {
+    font-size: 68px;
+}
+.footer-bg {
+    height: 40vh;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .header {
+    height: 53vh;
+}
+.banner-text {
+    height: 33vh;
+}
+.banner-text p {
+    font-size: 11px;
+
+}
+.banner-text h1 {
+    font-size: 40px;
+}
+.banner-text h2 {
+    font-size: 40px;
+}
+.post {
+    position: relative;
+    margin-bottom: 13px;
+}
+.post-content h2 {
+    font-size: 28px;
+}
+.bottom {
+    margin-top: 15px;
+}
+.mt-5 {
+    margin-top: 1rem!important;
+}
+.post-gallery {
+    padding: 46px 0;
+}
+.burger-type h1 {
+    font-size: 43px;
+}
+.burger-type img {
+    margin-bottom: 2rem;
+}
+.text-center {
+    margin: 20px 0px;
+}
+.burger-type {
+    padding: 0px 0;
+}
+.slider h3 {
+    text-align: center;
+}
+.slider h2 {
+    font-size: 31px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+}
+.slider p {
+    font-size: 16px;
+    text-align: center;
+}
+.form-section h2 {
+    font-size: 36px;
+}
+.footer-bg {
+    height: 125vh;
+}
+.footer-section img {
+    padding-left: 13px;
+}
+.footer-section p {
+    font-size: 15px;
+     padding-left: 0px; 
+    text-align: center;
+}
+.footer-r {
+    margin-top: 0px; 
+    margin-left: 0px; 
+    text-align: center;
+}
+.social {
+    text-align: center;
+}
+.footer-bg {
+  height: 54vh;
+}
+
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  img, svg {
+  vertical-align: middle;
+  width: 100%;
+}
+.navbar-brand{
+  width: 50%
+}
+.banner-text {
+  height: 0vh;
+}
+.banner-text p {
+  font-size: 10px;
+}
+.banner-text h1 {
+  font-size: 30px;
+}
+.banner-text h2 {
+  font-size: 30px;
+}
+.header {
+  height: 32vh;
+}
+.post-gallery {
+  padding: 25px 0;
+}
+.post {
+  margin-bottom: 20px;
+}
+.post-content h2 {
+  font-size: 20px;
+}
+.post-content h4 {
+  font-size: 20px;
+}
+.post-content {
+  top: 11px;
+}
+.mt-5 {
+  margin-top: 0rem !important;
+  text-align: center;
+}
+.burger-type h1 {
+  font-size: 25px;
+}
+.burger-type {s
+  padding: 20px 0;
+}
+.burger-type p {
+  font-size: 13px;
+}
+.burger-type img {
+  margin-bottom: 1rem;
+}
+.text-center {
+  margin-bottom: 20px;
+}
+.burger-type {
+  padding: 15px 0;
+}
+.slider h3 {
+  margin: 0px 0px 1px 0px;
+}
+.burger-type h3 {
+  font-size: 30px;
+}
+.burger-type button {
+  padding: 8px 8px;
+  font-size: 12px;
+}
+.slider h2 {
+  font-size: 20px;
+  margin: 0px 0px 20px 0px;
+}
+.slider h3 {
+  font-size: 25px;
+}
+.slider p {
+  font-size: 14px;
+}
+.form-section h5 {
+  font-size: 20px;
+}
+.form-section h2 {
+  font-size: 25px;
+}
+.footer-section img {
+  padding-top: 16px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+.footer-section p {
+  font-size: 12px;
+  text-align: center;
+  padding-left: 0px;
+}
+.footer-r {
+   margin-top: 0px; 
+   margin-left: 0px; 
+   text-align: center; 
+}
+.social {
+  text-align: center;
+}
+.footer-bg {
+  height: 38vh;
+}
+  
+}
