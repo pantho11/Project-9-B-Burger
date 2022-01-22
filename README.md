@@ -1,5 +1,4 @@
 # Project-9-B-Burger
 hey i am here 
-look mama got git
-please see me here 
-go go to bed
+felling happy now
+and i am your dad
