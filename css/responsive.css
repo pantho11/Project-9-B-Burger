@@ -22,6 +22,10 @@
     margin-top: 255px;
     margin-left: 168px;
 }
+.footer-bg {
+  height: 50vh;
+}
+
 }
 
 /* 
@@ -33,7 +37,7 @@
   
   /* CSS */
   .header {
-    height: 70vh;
+    height: 40vh;
 }
   .banner-text {
     display: table-cell;
@@ -113,6 +117,9 @@
     text-align: right;
      margin-right: 0px; 
 }
+.footer-bg {
+	height: 34vh;
+}
 }
 
 /* 
@@ -121,7 +128,9 @@
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
+  .header {
+    height: 72vh;
+  }
  .banner-text {
     height: 50vh;
 }
@@ -132,7 +141,7 @@
     font-size: 68px;
 }
 .footer-bg {
-    height: 40vh;
+	height: 60vh;
 }
   
 }
@@ -146,11 +155,11 @@
   
   /* CSS */
   .header {
-    height: 53vh;
-}
-.banner-text {
-    height: 33vh;
-}
+    height: 38vh;
+  }
+  .banner-text {
+    height: 22vh;
+  }
 .banner-text p {
     font-size: 11px;
 
@@ -224,7 +233,7 @@
     text-align: center;
 }
 .footer-bg {
-  height: 54vh;
+	height: 63vh;
 }
 
 }
@@ -331,6 +340,7 @@
   font-size: 12px;
   text-align: center;
   padding-left: 0px;
+  margin-bottom: 10px;
 }
 .footer-r {
    margin-top: 0px; 
@@ -341,7 +351,7 @@
   text-align: center;
 }
 .footer-bg {
-  height: 38vh;
+  height: 40vh;
 }
   
 }
